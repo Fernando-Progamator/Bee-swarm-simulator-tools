@@ -1,3 +1,1 @@
-# Bee-swarm-simulator-tools
-Bee swarm simulator tools :D
-understanding github
+No license and open source
