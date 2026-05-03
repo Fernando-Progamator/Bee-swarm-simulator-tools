@@ -39,8 +39,8 @@ body{
 .toolBtn {
     border-color: #2b2601;
     border-style: solid;
-    border-radius: 7.5%;
-    border-width: 4%;
+    border-radius: 7.5px;
+    border-width: 5px;
     font-family: 'Roboto';
     font-weight: 600;
     color: rgb(255, 255, 255);
@@ -68,7 +68,7 @@ body{
     .btnTreat {
         transform: translate(50%, 25%);
         background-color: #ffe100;
-        border-color: #2b2601;
+        border-color: #746601;
         border-style: solid;
         font-family: 'Roboto';
         font-weight: 600;
@@ -86,7 +86,7 @@ body{
     .btnBHG {
         transform: translate(50%, 25%);
         background-color: #00d9ff;
-        border-color: #2b2601;
+        border-color: #00668f;
     }
 }
 .Red_hive_guide {
@@ -99,5 +99,6 @@ body{
     .btnRHG {
         transform: translate(50%, 25%);
         background-color: #ff0000;
+        border-color: #b60202;
     }
 }
