@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="TCstyle.css">
+    <title>Treat calculator</title>
+    <nav class="navbar">
+        <img src="../images/logo.png" class="logo">
+        <h1 class="logo_text">BSS TOOLS</h1>
+    </nav>
+</head>
+<body>
+    <script src="../BackEnd/TreatCalculator.js"></script>
+    <p id="Up_treat">Treats for up your bees:</p>
+    <p id="Up_honey">Honey for up your bees:</p>
+
+    <div class="calculate_info">
+        <div>
+            <label for="bees">Insert your bees</label>
+            <input type="number" placeholder="Insert your bees here" id="bees">
+            <label for="beeslevels">Insert your bees levels</label>
+            <input type="number" placeholder="Insert your bees levels here" id="beeslevels">
+            <label for="gifted_puppy">Gifted puppy bee:</label>
+            <input type="checkbox" id="gifted_puppy">
+        </div>
+        <button id="calculate_treat_btn" onclick="calculateTreat()">test</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,7 @@
+.calculate_info {
+    display: flex;
+    background-color: yellow;
+    width: 500px;
+    height: 200px;
+    align-items: center;
+}
