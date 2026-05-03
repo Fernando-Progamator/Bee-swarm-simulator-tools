@@ -7,57 +7,56 @@ body{
 .navbar {
     background-color: #ffffff;
     width: 100vw;
-    height: 7vh;
+    height: 10vh;
 }
 .logo {
     transform: translateY(-1px);
-    width: 69px;
-    height: 60px;
+    width: 10%;
+    height: 100%;
 }
 .logo_text {
     color: rgb(0, 0, 0);
     width: 500vw;
     height: 5vh;
-    size: 50px;
-    transform: translate(100px, -50px);
+    size: 50%;
+    transform: translate(3%, -170%);
     font-family: 'Roboto';
 }
 .tools {
     display: flex;
-    padding: 15px;
+    padding: 1%;
     justify-content: space-between;
 }
 
 .logoImg {
-    width: 100px;
+    width: 50%;
 }
 .tool_text {
-    transform: translate(0px, -35%);
+    transform: translate(0, -35%);
     color: rgb(255, 255, 255);
     font-family: 'Roboto';
-    size: 1cap;
 }
 .toolBtn {
     border-color: #2b2601;
     border-style: solid;
-    border-radius: 7.5px;
-    border-width: 4px;
+    border-radius: 7.5%;
+    border-width: 4%;
     font-family: 'Roboto';
     font-weight: 600;
     color: rgb(255, 255, 255);
-    width: 100px;
-    height: 30px;
+    width: 50%;
+    height: 15%;
 }
 .tool {
     background-color: #ffffff;
-    width: 200px;
-    height: 200px;
+    width: 100vw;
+    height: 40vh;
     justify-items: center;
     align-content: center;
-    border-radius: 15px;
+    border-radius: 10px;
     border-color: #919191;
     border-style: solid;
-    border-width: 10px;
+    border-width: 100%;
 }
 .treat_calculator {
     background-color: #4d4402;
@@ -71,13 +70,9 @@ body{
         background-color: #ffe100;
         border-color: #2b2601;
         border-style: solid;
-        border-radius: 7.5px;
-        border-width: 4px;
         font-family: 'Roboto';
         font-weight: 600;
         color: rgb(0, 0, 0);
-        width: 100px;
-        height: 30px;
     }
 }
 .Blue_hive_guide {
@@ -85,21 +80,13 @@ body{
     border-color: #027db6;
 
     .imgBHG {
-        transform: translate(50%);
+        transform: translate(50%, -15%);
     }
     
     .btnBHG {
         transform: translate(50%, 25%);
         background-color: #00d9ff;
         border-color: #2b2601;
-        border-style: solid;
-        border-radius: 7.5px;
-        border-width: 4px;
-        font-family: 'Roboto';
-        font-weight: 600;
-        color: rgb(255, 255, 255);
-        width: 100px;
-        height: 30px;
     }
 }
 .Red_hive_guide {
@@ -107,7 +94,7 @@ body{
     border-color: #b60202;
 
     .imgRHG{
-        transform: translate(50px, -15%);
+        transform: translate(50%, -15%);
     }
     .btnRHG {
         transform: translate(50%, 25%);

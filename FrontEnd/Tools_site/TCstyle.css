@@ -1,7 +1,34 @@
+.abc {
+    display: grid;
+    justify-items: center;
+}
+
 .calculate_info {
-    display: flex;
-    background-color: yellow;
-    width: 500px;
-    height: 200px;
+    transform: translate(0, 100px);
+    display: grid;
+    background-color: rgb(102, 102, 100);
+    width: 30vw;
+    height: 50vh;
+    justify-items: center;
     align-items: center;
+    gap: 2vh;
+
+    border: solid 5px black;
+    border-radius: 15px;
+    padding: 10px;
+
+    label {
+        color: white;
+        font-family: 'Roboto';
+        font-weight: 650;
+
+    }
+
+    button {
+        color: white;
+        background-color: black;
+        border: solid 0.1vh white;
+        width: 10%;
+        height: 10%;
+    }
 }
