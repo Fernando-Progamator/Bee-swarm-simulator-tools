@@ -1,6 +1,6 @@
 .abc {
     display: grid;
-    justify-items: center;
+    justify-items: flex-start;
 }
 
 :root {
@@ -33,7 +33,26 @@
     }
 }
 
+.text_div1 {
+    position: relative;
+    width: 30vw;
+    height: 50vh;
+    background-color: hsl(261, 33%, 14%);
+    transform: translate(190%, -70%);
 
+    border: solid 5px var(--border-color-1);
+    border-radius: 15px;
+    padding: 10px;
+
+    p{
+        color: white;
+        font-family: 'Roboto';
+        font-weight: 600;
+        width: 100%;
+        height: 10%;
+    }
+    animation: borderAnimation 2s infinite alternate;
+}
 .calculate_info {
     transform: translate(0, 100px);
     display: grid;
