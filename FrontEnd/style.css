@@ -10,6 +10,7 @@ body{
     height: 10vh;
 }
 .logo {
+    aspect-ratio: 1/1;
     transform: translateY(-1px);
     width: 10%;
     height: 100%;
@@ -63,6 +64,7 @@ body{
     border-color: #2b2601;
 
     .treat_image {
+        aspect-ratio: 1/1;
         transform: translate(45%, -15%);
     }
     .btnTreat {
@@ -80,6 +82,7 @@ body{
     border-color: #027db6;
 
     .imgBHG {
+        aspect-ratio: 1/1;
         transform: translate(50%, -15%);
     }
     
@@ -94,6 +97,7 @@ body{
     border-color: #b60202;
 
     .imgRHG{
+        aspect-ratio: 1/1;
         transform: translate(50%, -15%);
     }
     .btnRHG {
