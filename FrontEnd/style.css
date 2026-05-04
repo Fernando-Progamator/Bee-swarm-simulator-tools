@@ -11,6 +11,7 @@ body{
 }
 .logo {
     aspect-ratio: 1/1;
+    object-fit: cover;
     transform: translateY(-1px);
     width: 10%;
     height: 100%;
@@ -65,6 +66,7 @@ body{
 
     .treat_image {
         aspect-ratio: 1/1;
+        object-fit: cover;
         transform: translate(45%, -15%);
     }
     .btnTreat {
@@ -83,6 +85,7 @@ body{
 
     .imgBHG {
         aspect-ratio: 1/1;
+        object-fit: cover;
         transform: translate(50%, -15%);
     }
     
@@ -98,6 +101,7 @@ body{
 
     .imgRHG{
         aspect-ratio: 1/1;
+        object-fit: cover;
         transform: translate(50%, -15%);
     }
     .btnRHG {
