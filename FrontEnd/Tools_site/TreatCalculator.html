@@ -18,16 +18,25 @@
         <div>
             <label for="bees">Insert your bees</label>
             <br>
-            <input type="number" placeholder="Insert your bees here" id="bees">
+            <input type="number" placeholder="Insert your total hive slot" id="bees">
             <br>
             <label for="beeslevels">Insert your bees levels</label>
             <br>
-            <input type="number" placeholder="Insert your bees levels here" id="beeslevels">
+            <input type="number" placeholder="Insert your bees levels" id="beeslevels">
             <br>
-            <label for="gifted_puppy">Gifted puppy bee:</label>
-            <input type="checkbox" id="gifted_puppy">
+            <label for="bond_from_treat">Bond from treat (+20% if you have a gifted puppy):</label>
+            <br>
+            <input type="number" placeholder="Insert your %bond from treat" id="bond_from_treat_bonus">
+            <br>
         </div>
         <button id="calculate_treat_btn" onclick="calculateTreat()">test</button>
     </div>
+    <div class="text_div1">
+        <p id="Up_treat" class="p1">Treats for up your bees: </p>
+        <br>
+        <br>
+        <p id="Up_honey" class="p1">Honey for up your bees: </p>
+    </div>
+    
 </body>
 </html>
