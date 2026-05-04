@@ -3,17 +3,48 @@
     justify-items: center;
 }
 
+:root {
+    --border-color-1: #ff0000;
+}
+@keyframes borderAnimation {
+    0% {
+        border-color: hsl(0, 100%, 50%);
+    }
+    14% {
+        border-color: hsl(30, 100%, 50%);
+    }
+    28% {
+        border-color: hsl(60, 100%, 50%);
+    }
+    42% {
+        border-color: hsl(90, 100%, 50%);
+    }
+    56% {
+        border-color: hsl(226, 97%, 60%);
+    }
+    70% {
+        border-color: hsl(240, 100%, 50%);
+    }
+    84% {
+        border-color: hsl(262, 100%, 50%);
+    }
+    100% {
+        border-color: hsl(275, 100%, 50%);
+    }
+}
+
+
 .calculate_info {
     transform: translate(0, 100px);
     display: grid;
-    background-color: rgb(102, 102, 100);
+    background-color: hsl(273, 75%, 69%);
     width: 30vw;
     height: 50vh;
     justify-items: center;
     align-items: center;
     gap: 2vh;
 
-    border: solid 5px black;
+    border: solid 5px var(--border-color-1);
     border-radius: 15px;
     padding: 10px;
 
@@ -26,9 +57,13 @@
 
     button {
         color: white;
-        background-color: black;
+        background-color: rgb(0, 0, 0);
         border: solid 0.1vh white;
-        width: 10%;
-        height: 10%;
+        border-radius: 15px;
+        border-width: 5px;
+        width: 30%;
+        height: 30%;
+        animation: borderAnimation 2s infinite alternate;
     }
+    animation: borderAnimation 2s infinite alternate;
 }

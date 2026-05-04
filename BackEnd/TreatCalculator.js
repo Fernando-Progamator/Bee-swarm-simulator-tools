@@ -11,6 +11,10 @@ bond_for_next_level = [
 
 btn = document.getElementById("calculate_treat_btn")
 
+if (btn) {
+    console.log("Button found")
+}
+
 function calculateTreat() {
     bees = document.getElementById("bees").value;
     levels = document.getElementById("beeslevels").value;
